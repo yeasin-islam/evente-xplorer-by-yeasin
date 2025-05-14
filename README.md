@@ -1,12 +1,54 @@
-# React + Vite
+# 🎉 EventeXplorer
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+**EventeXplorer** is a modern React-based single-page web application designed to help users discover, explore, and book a wide variety of events effortlessly.
 
-Currently, two official plugins are available:
+## 🌐 Live Site
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+👉 [Visit EventeXplorer](https://event-explorer-catagori-jesmine-a9.netlify.app/)
 
-## Expanding the ESLint configuration
+## 🎯 Purpose
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+EventeXplorer offers users a seamless platform to:
+- Browse and search for upcoming events
+- View detailed event information
+- Book events with a registered account
+- Manage bookings from a personal user profile
+- Read testimonials and find answers via FAQs
+
+Whether you're looking for concerts, workshops, or tech meetups — EventeXplorer brings the experience to your fingertips.
+
+## 🚀 Key Features
+
+- 🧭 **Event Discovery**: Search and explore events by title, date, and location
+- 📄 **Event Details Page**: View in-depth event info including date, time, and pricing
+- 🔒 **Firebase Authentication**: User registration, login, and password reset
+- 🛡 **Protected Routes**: Access control for booking and profile pages
+- 📚 **Booking System**: Authenticated users can book and view their events
+- 💬 **Testimonials Section**: Real feedback from happy users
+- 📊 **Dynamic Stats**: Animated event stats using CountUp
+- 🖼 **Swiper Slider**: Smooth image sliders for featured content
+- 🍞 **Toast Notifications**: Clean and responsive user alerts
+
+## 🧰 Technology Stack
+
+| Category         | Technologies Used                             |
+|------------------|-----------------------------------------------|
+| Core             | React 19, Vite                                |
+| Routing          | React Router                                  |
+| Styling          | Tailwind CSS, DaisyUI                         |
+| Authentication   | Firebase                                       |
+| UI Enhancements  | React Hot Toast, React CountUp, Swiper         |
+| Metadata         | React Helmet Async                            |
+| Icons            | React Icons                                   |
+
+## 📦 NPM Packages Used
+
+```bash
+npm install react react-router
+npm install tailwindcss daisyui
+npm install firebase
+npm install react-hot-toast
+npm install react-countup
+npm install swiper
+npm install react-helmet-async
+npm install react-icons
